@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <!-- <SessionManager /> -->
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link :to = "{ name: 'SessionsManager'}">Session Manager</router-link>
@@ -10,13 +9,9 @@
   </div>
 </template>
 <script>
-// import SessionManager from '@/components/SessionManager.vue';
 
 export default {
   name: 'app',
-  // components: {
-  //   SessionManager,
-  // },
 };
 </script>
 
